@@ -17,5 +17,4 @@ object Main {
     val accountDetail: Try[AccountDetail] = horizon.account.detail(accountId)
     accountDetail.foreach(println)
   }
-
 }
