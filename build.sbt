@@ -5,6 +5,6 @@ lazy val `scala-stellar-horizon-exemplar` = project
   .settings(
     resolvers += "jitpack" at "https://jitpack.io",
     libraryDependencies ++= List(
-      "com.github.synesso.scala-stellar" %% "horizon" % "v0.0.1"
+      "com.github.synesso.scala-stellar" %% "horizon" % "0.0.1"
     )
   )
