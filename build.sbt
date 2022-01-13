@@ -1,4 +1,4 @@
-ThisBuild / scalaVersion := "2.13.6"
+ThisBuild / scalaVersion := "2.13.8"
 
 lazy val `scala-stellar-horizon-exemplar` = project
   .in(file("."))
